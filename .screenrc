@@ -1,0 +1,20 @@
+startup_message off
+defbce on
+defutf8 on
+defflow on
+vbell off
+altscreen on
+
+caption always "%{= 4m}%{+b w}Screen: %n | %h %W"
+
+
+termcapinfo xterm|xterms|xs|rxvt ti@:te@
+term xterm-256color
+
+bind c screen 1
+bind ^c screen 1
+bind 0 screen 10
+screen 1
+
+
+
